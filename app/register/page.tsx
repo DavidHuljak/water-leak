@@ -3,7 +3,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-export default function registerPage() {
+export default function RegisterPage() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [street, setStreet] = useState("");
@@ -24,6 +24,7 @@ export default function registerPage() {
     } catch (error) {
       setMessage("Během registrace došlo k chybě.");
       setIsError(true);
+      console.error(error);
     }
   };
   return (

@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="cs">
-      <body>
+      <body className={inter.className}>
         <header>
           <nav className="container">
             <Link href="/" className="logo">

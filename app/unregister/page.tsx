@@ -3,7 +3,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-export default function unregisterPage() {
+export default function UnregisterPage() {
   const [street, setStreet] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -21,6 +21,7 @@ export default function unregisterPage() {
     } catch (error) {
       setMessage("Během odhlašování došlo k chybě.");
       setIsError(true);
+      console.error(error);
     }
   };
   return (
