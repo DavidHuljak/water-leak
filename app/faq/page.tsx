@@ -13,7 +13,7 @@ export default function FaqPage() {
       <section>
         <h2>Mohu se kdykoliv odhlásit?</h2>
         <p>
-          Ano, odhlásit se můžete kdykoliv prostřednictvím záložky "Odhlášení" v
+          Ano, odhlásit se můžete kdykoliv prostřednictvím záložky Odhlášení v
           nastavení.
         </p>
       </section>
