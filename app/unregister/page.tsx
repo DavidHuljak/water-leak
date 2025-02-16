@@ -28,8 +28,7 @@ export default function UnregisterPage() {
     <div className="form-container animate-fade-in">
       <h2 className="form-title">Odhlášení ze systému</h2>
       <p className="form-text">
-        Po zadání údajú budute odebráni ze sytému a už nebudete dostávat
-        upozornění na výpadky vody.
+        Prosím zadejte ulici a email, který jste použili při registraci.
       </p>
       <form onSubmit={handleSubmit} className="form-container">
         <div className="form-group">

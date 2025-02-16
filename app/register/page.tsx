@@ -31,8 +31,8 @@ export default function RegisterPage() {
     <div className="form-container animate-fade-in">
       <h2 className="form-title">Registrace do systému</h2>
       <p className="form-text">
-        Zadejte své údaje a budete dostávat upozornění na výpadky vody ve vaší
-        lokalitě.
+        Po vyplnění registračního formuláře budete informováni o výpadcích vody
+        ve vaší lokalitě.
       </p>
       <form onSubmit={handleSubmit} className="form-container">
         <div className="form-group">

@@ -29,6 +29,9 @@ export default function RootLayout({
               <li>
                 <Link href="/unregister">Odhlášení</Link>
               </li>
+              <li>
+                <Link href="/faq">FAQ</Link>
+              </li>
             </ul>
           </nav>
         </header>

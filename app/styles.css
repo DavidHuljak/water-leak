@@ -72,10 +72,23 @@ p {
   margin-bottom: 1rem;
 }
 
+.faq-container {
+  max-width: 60rem;
+  padding: 2rem;
+  margin: 0 auto;
+  color: #4b5563;
+}
+
+.faq-container h1,
+.faq-container h2,
+.faq-container a {
+  color: #2563eb;
+}
+
 .home-container {
   text-align: center;
   max-width: 60rem;
-  padding: 2.5rem 1rem;
+  padding: 2rem;
   margin: 0 auto;
 }
 
@@ -160,7 +173,8 @@ p {
   font-size: 1rem;
   color: #4b5563;
   text-align: center;
-  margin: 10px 35px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .form-group {
@@ -227,6 +241,10 @@ p {
 
 .form-message-error {
   color: #ef4444;
+}
+
+.form-checkbox {
+  color: #4b5563;
 }
 
 @keyframes fadeIn {
